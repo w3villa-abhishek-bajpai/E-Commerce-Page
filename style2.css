@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: gray; 
+}
+/* .wrraper{
+    background-color: blue;
+   width: 1600px;
+   height: 100%;
+   margin: auto;
+   
+} */
+
+.SectionOne{
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    justify-content: space-between;
+    max-width:1600px;
+    width: 100%;
+    display: flex;
+}
+.infoleft{
+    display: flex;
+    padding: 10px;
+}
+.infoleft ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.infomid{
+    padding: 10px;
+}
+.infomid ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+}
+.inforight{
+     background-color: blue; 
+    padding: 10px;
+    
+
+}
+.inforight ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+}
+
+.SectionTwo{
+    width: 100vw;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    max-width:1600px;
+    width: 100%;
+    display: flex;
+}
+.name{
+    width: 20%;
+    justify-content: left;
+    margin: 20px 0px 20px 0px;
+    
+    
+}
+.searchbar{
+    width: 40%;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+
+   
+}
+.searchbar input{
+    width: 500px;
+    height: 40px;
+}
+.searchicon{
+    height: 40px;
+    width: 50px;
+    background-color: blue;
+    align-content: center;
+    padding-left:5px ;
+    color: whitesmoke;
+    font-size: small;
+}
+.header3{
+     background-color: rgb(56, 219, 240); 
+    width: 20%;
+    margin: 20px 0px 20px 0px;
+
+}
+.header3 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.header4{
+    justify-content: right;
+     width: 20%;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+ 
+}
+.header4 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px; 
+    justify-content: end;
+}
+
+.SectionThree{
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    }
+.hero{
+    display: flex;
+    max-width:1600px;
+    width: 100%;
+}
+.heroleft{
+    width:20%;
+    background-color: rgb(250, 216, 65);
+    padding:20px;
+}
+.heromid{
+    width:55%;
+    padding: 20px;
+    color: whitesmoke;
+}
+.heromid ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.heroright{
+    width: 25%;
+    display:flex;
+    gap:15px;
+    justify-content: end;
+
+}
+.blog{
+    display: flex;
+    width: 30%;
+    background-color: rgb(250, 216, 65);
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    color: whitesmoke;
+}
