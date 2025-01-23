@@ -29,7 +29,7 @@
             <div class="info">
                 <div class="infoleft">
                     <ul>
-                        <li><i class="fa-solid fa-house"></i> Home</li>
+                        <li><i class="fa-solid fa-house"></i>Home</li>
                         <li><i class="fa-solid fa-user"></i> About Us</li>
                         <li><i class="fa-regular fa-envelope"></i> Contact</li>
                         <li> <i class="fa-solid fa-clipboard-question"></i> FAQ <i class="fa-solid fa-caret-down"></i>
@@ -48,6 +48,19 @@
                         <li><i class="fa-solid fa-truck-fast"></i>Delivery</li>
                     </ul>
                 </div>
+
+                <div class="infoleft2">
+                    <ul>
+                        <li><i class="fa-solid fa-user"></i> Login</li>
+                        <li>Register</li>
+                      
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
             </div>
         </div>
 
@@ -74,7 +87,7 @@
                 </div>
                 <div class="header4">
                     <ul>
-                        <li>0 items(s) - $0.00</li>
+                        <li class="head41">0 items(s) - $0.00</li>
                         <li class="cart"><i class="fa-solid fa-cart-shopping fa-2x"></i></li>
                     </ul>
                 </div>
@@ -100,7 +113,7 @@
                     <div class="blog"><i class="fa-solid fa-message"></i> BLOG</div>
                 </div>
             </div>
-        </div>
+        </div> 
           
         <!-- Section Four -->
 
@@ -114,7 +127,7 @@
                         <div class="below">
                             <h2>Best mobile options<br>at any resoltions</h2>
                         </div>
-                        <div class="learn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="learn"><p>LEARN MORE </p><i class="fa-solid fa-arrow-right"></i></div>
                         <div class="dots">
                             <div class="dots1"></div>
                             <div class="dots2"></div>
@@ -204,7 +217,7 @@
     
         </div>
 
-        </div>
+        </div> 
 
 
         <div class="SectionSix">
@@ -235,10 +248,10 @@
 
                 </div>
         </div>
-    </div> 
+    </div>  
 
     <!-- Section Seven -->
-
+<!--  -->
     <div class="SectionSeven">
         <div class="carousel">
             <div class="your-carousel-class">
@@ -266,7 +279,16 @@
                 autoplaySpeed: 2000,
                 dots: true,
                 arrows: true,
-                infinite: true
+                infinite: true,
+                responsive: [
+                                {
+                                    breakpoint: 750, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 2, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                            ]
             });
         });
     </script>
@@ -301,13 +323,13 @@
                     <p>FEATURED</p>
                 </div>
                 <div class="seven12">LATEST</div>
-                <div class="seven13">BESTSELLERS</div>
+                <div class="seven13">BESTSELLER</div>
                 <div class="seven14">SPECIALS</div>
             </div>
         </div>
     
 
-    </div>
+    </div> 
 
     <!-- Section Ten -->
      <div class="SectionTen">
@@ -538,10 +560,19 @@
             autoplaySpeed: 2000,
             dots: true,
             arrows: true,
-            infinite: true
+            infinite: true,
+                responsive: [
+                                {
+                                    breakpoint: 750, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 1, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                            ]
         });
     });
-</script>
+</script> 
 
 <!-- Section eleven -->
 
@@ -555,11 +586,11 @@
     
 </div>
 
-</div>
+</div> 
    
     
    
-<!-- Section Tweleve -->
+<!-- Section Twelve -->
 
 <div class="SectionTwelve">
     <div class="featuredcateg">
@@ -676,22 +707,7 @@
                             </div>
                         </div>
     
-                        <!-- <div class="f22e">
-                            <div class="f22a1"><img src="assets/fashion3.jpeg" alt="fashion"></div>
-                            <div class="f22a2">
-                                <p>Bodycorn dress</p>
-                                <p>$399.00</p>
-                            </div>
-                            <div class="f22a3">
-                                <div class="addto">
-                                    <button>Add To Cart</button>
-                                </div>
-                                <div class="symbols">
-                                    <i class="fa-solid fa-heart"></i>
-                                    <i class="fa-solid fa-right-left"></i>
-                                </div>
-                            </div>
-                        </div> -->
+            
                     </div>
                    
                 </div>
@@ -702,18 +718,27 @@
     </div>
 
 
-    <!-- <script>
+    <script>
         $(document).ready(function () {
-            $('.f1').slick({
-                slidesToShow: 4,
+            $('.f22').slick({
+                slidesToShow: 3,
                 slidesToScroll: 1,
-                autoplaySpeed: 2000,
+           
                 dots: true,
-                arrows: true,
-                infinite: true
+                arrows: false,
+                infinite: true,
+                responsive: [
+                                {
+                                    breakpoint: 440, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 2, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                            ]
             });
         });
-    </script> -->
+    </script>
 
 
     <!-- Section Fourteen -->
@@ -744,7 +769,7 @@
                         </div>
                  
                  </div> 
-            </div>
+            </div> 
          
 
 
@@ -762,13 +787,14 @@
                 {
                     breakpoint: 768,
                     settings: {
-                        slidesToShow: 2, 
+                        slidesToShow: 3, 
                     }
                 },
                 {
-                    breakpoint: 480, 
+                    breakpoint: 425, 
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
                     }
                 }
             ]
@@ -782,10 +808,10 @@
 <div class="SectionFifteen">
     <div class="gallery">
         <div class="gallery1">
-        <div class="gal-head"><h2>Improved Gallery Module</h2></div><div class="gal-underline"></div>
-        <div class="gal-inner"><p>The Gallery module supports images, video and can also acts as banners that can point to say other page or open other Popup modules</p></div>
-        <div class="gal-inner2"><p>Create different modules with images, videos, banners or a combination of all. Add your modules on any page in any grid format.</p></div>
-    </div>
+            <div class="gal-head"><h2>Improved Gallery Module</h2></div>
+            <div class="gal-underline"></div>
+            <div class="gal-inner"><p>The Gallery module supports images, video and can also acts as banners that can point to say other page or open other Popup modules</p></div>
+            <div class="gal-inner2"><p>Create different modules with images, videos, banners or a combination of all. Add your modules on any page in any grid format.</p></div>    </div>
     <div class="gallery-images">
         <img src="assets/gallery1.jpeg" alt="galler-img1">
         <img src="assets/gallery2.jpeg" alt="galler-img2">
@@ -828,7 +854,7 @@
         </div>
     </div> 
 </div>
-</div>
+</div> 
 
  <!-- blog-card section -->
      <!-- Section Seventeen -->
@@ -936,7 +962,7 @@
         
             </div>
         </div>
-     </div>
+     </div> 
 
 
     
@@ -945,14 +971,21 @@
             $('.blog-in').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
-             
-                autoplaySpeed: 2000,
                 dots: true,
                 arrows: true,
-                infinite: true
+                infinite: true,
+                responsive: [
+                                {
+                                    breakpoint: 450, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 1, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                            ]
             });
         });
-    </script> 
+    </script>  
 
     <!-- Section Eighteen -->
 
@@ -1017,7 +1050,7 @@
         </div>
 
         
-    
+  
             <script>
                 $(document).ready(function () {
                     $('.cust2').slick({
@@ -1027,7 +1060,16 @@
                         autoplaySpeed: 2000,
                         dots: true,
                         arrows: true,
-                        infinite: true
+                        infinite: true,
+                responsive: [
+                                {
+                                    breakpoint: 450, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 1, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                            ]
                     });
                 });
             </script>
@@ -1224,7 +1266,7 @@
             <div class="footer1da">
                 <p>Stay up to date with news and<br>
                 promotions by signing up for our<br>
-            newsletter</p>
+                newsletter</p>
 
             </div>
 
@@ -1235,8 +1277,8 @@
                 </div>
                 <div class="checkbox">
                     <input type="checkbox" id="condition">
-                    <label for="condition"  class="policy">I have read and agree to the
-                         <a href="s" class="policy">Privacy Policy</a></label>
+                    <label for="condition"  class="policy">I have read and agree to the                          <a href="s" class="policy">Privacy Policy</a></label>
+
                 </div>
                 
             </div>
@@ -1251,7 +1293,7 @@
    <!-- SectionTwentyTwo -->
 
 <!-- last footer -->
-  
+ 
         <div class="SectionTwentyTwo">
             <div class="lf-1">
                 <div class="lf-1a"><p>Copyright @ 2014, Your Store,All rights Reserved</p></div>
