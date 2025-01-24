@@ -2742,7 +2742,8 @@ body {
     /* Section Two */
 
 
-    .SectionTwo {
+    .SectionTwo 
+    {
         width: 100%;
         background-color: white;
         display: flex;
@@ -2766,12 +2767,12 @@ body {
     
     .name {
         box-sizing: border-box;
-        width: 37%;
+        width: 49%;
         justify-content: left;
        
         overflow: hidden;
         /* padding: 5px; */
-        margin: 10px 0px 20px 10px;
+        margin: 10px 0px 10px 10px;
      
         font-size: 16px!important;
       
@@ -2784,14 +2785,12 @@ body {
         display: flex;
         margin: 10px 0px 20px 0px;
         display: flex;
-        padding-left: 150px;
+        padding-left: 100px;
     
     
     }
     
     .searchbar input {
-     width: 100%;
-        height: 40px;
         display: none;
     }
     
@@ -2882,6 +2881,7 @@ body {
         display: none;
     }
 
+
     /* Section Four */
 
     .SectionFour {
@@ -2920,11 +2920,11 @@ body {
         margin-top: 20px;
         /* margin-left: 10px; */
         /* padding-left: 10px; */
-        width: 80px;
+        width: 70px;
         height: 30px;
         justify-content: center;
         padding-left: 0px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .below {
@@ -2933,7 +2933,7 @@ body {
     }
 
     .learn {
-        width: 60%; 
+        width: 64%; 
         margin-top: 20px;
         height: 30px;
     }
@@ -3044,9 +3044,16 @@ body {
     padding: 0 10px; 
 }
 
-.five11 ul li {
+.five11 ul li 
+{
     width: 48%; 
     margin-bottom: 10px; 
+}
+
+.ul1 h3
+{
+    font-size: 13px;
+
 }
 
 .iconss {
@@ -3054,6 +3061,10 @@ body {
     padding: 8px 6px; 
 }
 
+.icons-text
+{
+    padding-top: 8px;
+}
 .secondli {
     font-size: 14px; /
 }
@@ -3090,7 +3101,7 @@ body {
  
 }
 .six1 {
-    width: 45%; 
+    width: 47%; 
     padding-left: 0;
     font-size: 10px; 
     margin-top: 0px;
@@ -4222,7 +4233,7 @@ body {
     width: 80px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+ 
     margin-left: 11px;
     margin-top: 0px;
 }
@@ -4232,12 +4243,8 @@ body {
     line-height: normal;
     width: 97%;
     color: rgb(202, 200, 200);
-    /* line-height: 40px; */
     margin-left: 9px;
     font-size: small;
-    /* margin-right: 13px; */
- 
-    /* border: 2px solid teal; */
 }
 
 .gal-inner2 {
@@ -4249,10 +4256,6 @@ body {
     margin-left: 9px;
 
 }
-
-
-
-
 
 
 .gallery-images {
@@ -4269,13 +4272,6 @@ body {
  
    
 }
-/* 
-.gallery1 {
-    height: auto; 
-    margin-top: 30px;  
-} */
-
-
 
 /* Section Sixteen */
 
@@ -4537,9 +4533,6 @@ body {
 
 
 /* Section eighteen */
-
-
-
 .SectionEighteen
 {
     width: 100%;
@@ -4550,7 +4543,6 @@ body {
 
 
 }
-
 .cust
 {
 
@@ -4561,7 +4553,6 @@ body {
 
 
 }
-
 .cust1
 {
     width: 100%;
@@ -4571,8 +4562,6 @@ body {
  
 
 }
-
-
 .cust1a {
 
 
@@ -4587,7 +4576,6 @@ body {
 
 
 }
-
 .cust1b {
     background-color: #E9662F;
     width: 15%;
@@ -4599,7 +4587,6 @@ body {
     margin-left: 30px;
     margin-top: 0px;
 }
-
 .cust2
 {
 
@@ -4737,8 +4724,6 @@ body {
 
    
 }
-
-
 .most-viewed1 {
      width: 70%;
     display: flex;
@@ -4746,11 +4731,6 @@ body {
     margin-top: 0%;
     color: #EEEEEE;
     height: 30px;
- 
-  
- 
- 
-
 }
 
 .most-viewed1 p{
@@ -4788,20 +4768,15 @@ body {
     flex-direction: column;
     gap: 15px;
     background-color: #EEEEEE;
-
     margin-left: 5px;
-  
 }
 
 .view21a
 {
- 
     height: 60%;
     width: 100%;
     object-fit: fill;
     overflow: hidden;
- 
-
 }
 
 .view21a img{
@@ -4950,10 +4925,7 @@ body {
     color: rgb(202, 49, 49);
 }
 
-
 /* Section Twenty One */
-
-
 .SectionTwentyOne
 {
     width: 100%;
@@ -5113,10 +5085,7 @@ body {
     margin-top: 1px;
  
     width: 100%;
-    display: flex;
-    
-
-   
+    display: flex;   
 }
 .lf-1
 {
@@ -5183,7 +5152,6 @@ body {
     display: flex;
 
 }
-
 .checkbox input{
     font-size: small;
 }
@@ -5193,15 +5161,455 @@ body {
 }
 
 
+@media (max-width: 375px) {
 
 
 
+    .SectionNineteen
+    {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        background-color: #3A4855;
+
+    
+      
+    }
+    
+    
+    .view
+    {
+        width: 100%;
+        max-width: 425px;
+        height: 326px;
+
+        margin-top: 0px;
+        background-color: #3A4855;
+    
+      
+    }
+    
+    .view1
+    {
+        width: 100%;
+        height: 49px;
+        background-color: #3A4855;
+        margin-top: 0px;
+    }
+    .most-viewed
+    {
+        width: 55%;
+     
+        font-size: 13px;
+        height: 42px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+    
+       
+    }
+    .most-viewed1 {
+         width: 70%;
+        display: flex;
+        align-items: center;
+        margin-top: 0%;
+        color: #EEEEEE;
+        height: 30px;
+    }
+    
+    .most-viewed1 p{
+        font-size: 15px;
+        margin-left: 9px;
+    }
+    .most-viewed2 
+    { 
+        border: 1px solid #E9662F;
+        width: 30%;
+        margin-left: 9px;
+    }
+    
+    .view2
+    {   width: 364px;
+       
+        height: 249px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+     
+     
+        margin-left: 2px ;
+        margin-right: 2px;
+     
+         
+    }
+    .view21
+    {
+        border: 1px solid white;
+        width: 43%;
+        height: 238px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 15px; */
+        background-color: #EEEEEE;
+        margin-left: 5px;
+   
+    }
+    
+    .view21a
+    {
+        height: 50%;
+        width: 100%;
+        object-fit: fill;
+        overflow: hidden;
+   
+     
+    }
+    
+    .view21a img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        overflow: hidden;
+    }
+    .b1{
+        margin-top: 2px;
+      
+    }
+    .b3{
+        gap: 20px;
+        margin-top: 11%;
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+    
+    }
+    .b2{
+        margin-top: 3%;
+    
+    }
+    
+    .view21b
+    {
+        font-size: small;
+        /* height: ; */
+        width: 100%;
+        background-color: #EEEEEE;
+    }
+    .view22
+    {
+        width: 44%;
+        border-radius: 3px;
+        height:  238px;
+        display: flex;
+        border: 1px solid white;
+        flex-direction: column;
+        /* gap: 15px; */
+        margin-right: 0px;
+        background-color: #EEEEEE;
+        
+    
+    
+    }
+    .view23
+    {
+    
+        width: 24%;
+        height: 120px;
+        display: flex;
+        gap: 15px;
+        background-color: #EEEEEE;
+        display: none;
+    }
+    
+    .view24
+    {
+    
+        width: 24%;
+        height: 120px;
+        display: flex;
+        gap: 10px;
+        background-color: #EEEEEE;
+        display: none;;
+    }
+
+
+/* SEction six */
+
+
+    .SectionSix {
+        width: 100%;
+        display: flex;
+      
+        height: 182px;  
+     
+       
+     
+    }
+    
+    .six {
+        height: auto; 
+        max-width: 425px;
+      
+        height: 50px;
+       
+        margin-top: 20px;
+  
+     
+    }
+    .six1 {
+        width: 51%; 
+        padding-left: 0;
+        font-size: 10px; 
+        margin-top: 0px;
+       
+        height: 26px;
+       
+      
+    }
+    
+    .six1 .h1{
+        font-size: x-small;
+       
+    }
+    
+    .six2 {
+        width: 11%; 
+        margin-left: 9px;
+       
+        height: 2px;
+        margin-top: 0px;
+    }
+    
+    .six3{
+        font-size: 12px; 
+     
+        margin-top: 15px;
+      
+        margin-left: 9px;
+        margin-right: 3px;
+       
+       
+       
+    }
+    .six4
+    {
+        font-size: 12px; 
+     
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-start;
+    
+      
+        align-items: start;
+        /* margin-left: 9px; */
+        margin-right: 13px;
+        margin-left: 9px;
+        /* border: 2px solid; */
+    }
+    .six3 p{
+        line-height: normal;
+        /* border: 2px solid ; */
+     
+    }
+    .six4 p{
+        line-height: normal;
+        margin-left: 0px;
+        padding-left: 0px;
+     
+    } 
+    
+    .six5 {
+        width: 100%; 
+        margin-left: 3px; 
+        padding-top: 0px;
+        max-width: 425px;
+       
+    }
+    
+    .six51 {
+        width: 100%; 
+        padding-left: 0;
+        margin-left: 3; 
+        height: 62px;
+     
+       
+    }
+    
+    .six52, .six53{
+        font-size: x-small;
+        margin-left: 3px;
+    
+    
+    }
+    .six54, .six55 
+    {
+        display: none;
+    
+    }
+    
+    .six52 {
+        background-color: #0D51D6;
+        color: white;
+        height: 30px;
+        width: 100px;
+    
+     
+    
+    }
+    
+    .six53, .six54, .six55 {
+        background-color: #EEEEEE; 
+        color: #696973;
+        width: 100px;
+        height: 30px;
+        /* border: 2px solid; */
+    }
+
+
+    /* Customer review */
+
+
+    .SectionEighteen
+{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+}
+.cust
+{
+
+    width: 100%;
+    max-width: 425px;
+    height: 310px;
+    background-color: #FFFFFF;
+}
+.cust1
+{
+    width: 100%;
+    
+    background-color: #FFFFFF;
+    height: 50px;
+}
+.cust1a {
+
+
+    width: 100%;
+   
+    display: flex;
+    height: 30px;
+    font-size: 13px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cust1b {
+    background-color: #E9662F;
+    width: 15%;
+  
+    height: 2px;
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 9px;
+    margin-top: 0px;
+}
+.cust2
+{
+
+    width: 100%;
+  
+    background-color: #FFFFFF;
+    height: 60%;
+ 
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.cust21
+{
+    width: 30%;
+    height: 90%;
+    background-color: #FFFFFF;
+   
+   
+}
+
+.cust21a
+{
+    width: 90%;
+    height: 70px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cust21a
+{
+    color: #E9662F;
+}
+
+.cust21b
+{
+    width: 90%;
+    height: 89px;
+  
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  
+}
+
+.cust21c
+{
+    width: 95%;
+    height: 40px;
+  
+    display: flex;
+    justify-content: center;
+
+}
+.cust21c p{
+    font-weight: bold;
+
+}
+.cust22
+{
+    width: 32%;
+    height: 99%;
+
+}
+.cust23
+{
+    width: 32%;
+    height: 99%;
+  
+}
+
+.cust24
+{
+    width: 32%;
+    height: 99%;
+
+}
+
+    
 
 
 
+    
+    
 
 
-
-
-
-
+}
