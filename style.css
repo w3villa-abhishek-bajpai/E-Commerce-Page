@@ -2933,9 +2933,10 @@ body {
     }
 
     .learn {
-        width: 64%; 
+        width: 66%; 
         margin-top: 20px;
         height: 30px;
+        padding-left: 9px;
     }
     .learn p {
         font-size: small;
@@ -5162,9 +5163,6 @@ body {
 
 
 @media (max-width: 375px) {
-
-
-
     .SectionNineteen
     {
         width: 100%;
@@ -5603,13 +5601,286 @@ body {
     height: 99%;
 
 }
+}
 
+
+
+
+
+@media (max-width: 375px) {
+
+
+    .addto button{
+        background-color: #0D51D6;
+        color: #D7DADF;
+        padding: 2px;
+        border: none;
+        width: 150;
+        height: 80%;
+    }
+}
+
+
+@media (max-width: 390px) {
+
+    .SectionNineteen
+    {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        background-color: #3A4855;
     
-
-
-
+      
+    }
     
+    
+    .view
+    {
+        width: 100%;
+        max-width: 425px;
+        height: 340px;
+        
+        /* display: flex;
+        align-items: center; */
+        margin-top: 0px;
+        background-color: #3A4855;
+      
+    }
+    
+    .view1
+    {
+        width: 100%;
+        height: 49px;
+        background-color: #3A4855;
+        margin-top: 0px;
+      
+      
+    
+    }
+
+.most-viewed
+{
+    width: 55%;
+ 
+    font-size: 13px;
+    height: 40px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.most-viewed1 p{
+    font-size: 15px;
+    margin-left: 9px;
+}
+.most-viewed2 
+{ 
+ 
+    border: 1px solid #E9662F;
+    width: 30%;
+    margin-left: 9px;
+
+}
+
+.view2
+{   width: 390px;
+   
+    height: 310px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-left: 2px ;
+    margin-right: 1px;
+
+ 
+     
+}
+.view21
+{
+    border: 1px solid white;
+    width: 45%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #EEEEEE;
+    margin-left: 5px;
+
+}
+
+.view21a
+{
+    height: 60%;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.view21a img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    overflow: hidden;
+}
+.b1{
+    margin-top: 3%;
+}
+.b3{
+    gap: 20px;
+    margin-top: 11%;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+
+}
+.b2{
+    margin-top: 3%;
+
+}
+
+.view21b
+{
+    font-size: small;
+    /* height: ; */
+    width: 100%;
+    background-color: #EEEEEE;
+}
+.view22
+{
+    width: 45%;
+    border-radius: 3px;
+    height: 269px;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 5px;
+    background-color: #EEEEEE;
+
+
+}
+.view23
+{
+
+    width: 24%;
+    height: 120px;
+    display: flex;
+    gap: 15px;
+    background-color: #EEEEEE;
+    display: none;
+}
+
+.view24
+{
+
+    width: 24%;
+    height: 120px;
+    display: flex;
+    gap: 10px;
+    background-color: #EEEEEE;
+    display: none;;
+}
+}
+
+
+@media (max-width: 390px) {
+
+    .SectionNineteen
+    {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        background-color: #3A4855;
+    
+      
+    }
+
+    .view22
+{
+    width: 45%;
+
+    height: 250px;
+    display: flex;
+    
+    border: 1px solid white;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 5px;
+    background-color: #EEEEEE;
+
+
+}
+
+.view21
+{
+    border: 1px solid white;
+    width: 45%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #EEEEEE;
+    margin-left: 5px;
+
+}
+
     
 
 
 }
+
+
+@media (max-width: 360px) {
+
+    .SectionNineteen
+    {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        background-color: #3A4855;
+        border: 2px solid;
+    
+      
+    }
+
+    .view22
+{
+    width: 42%;
+
+    height: 240px;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 38px;
+    background-color: #EEEEEE;
+    border: 2px solid rebeccapurple;
+
+
+}
+
+.view21
+{
+    border: 1px solid white;
+    width: 42%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #EEEEEE;
+    margin-left: 5px;
+
+}
+
+
+}
+    
+
+
